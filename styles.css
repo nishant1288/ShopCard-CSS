@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script&family=Gentium+Book+Plus&family=Kanit:wght@200&family=Kantumruy+Pro:wght@300&family=Lobster&family=Odibee+Sans&family=Roboto+Mono:wght@200&family=Roboto+Slab:wght@100;900&family=Rubik+Moonrocks&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    
+    
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+    margin-top:  20vh;
+    
+}
+
+.inner {
+    border-radius: 40px;
+    width: 400px;
+    height: 360px;
+    background-color: azure;
+    margin: 10px;
+    align-items: center;
+    position: relative;
+}
+
+.inner:hover {
+    box-shadow: 10px 10px grey;
+    transition-duration: 2s;
+}
+
+#div1{
+    background: linear-gradient(#56ab2f , #a8e063);
+}
+
+#div2{
+    background: linear-gradient(#ff5f6d , #ffc371);
+}
+
+#div3{
+    background: linear-gradient(#56ab2f , #a8e063);
+}
+
+#shoe1{
+    position: absolute;
+    top: 27px;
+    width: 300px;
+    left: 54px;
+    
+}
+
+#shoe2, #shoe3{
+    position: absolute;
+    top: 18px;
+    width: 286px;
+    left: 55px;
+}
+
+#shoe2:hover, #shoe3:hover{
+    transform: rotate(-45deg);
+    transition-duration: 2s;
+    width: 380px;
+}
+
+#shoe1:hover{
+    transform: rotate(-45deg);
+    transition-duration: 2s;
+    width: 400px;
+}
+
+
+.innest1, .innest2, .innest3 {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    top: 186px;
+    left: 31px;
+}
+
+.innest1:hover, .innest2:hover, .innest3:hover{
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    transition-duration: 1s;
+    
+}
+
+
+
+span {
+    position: absolute;
+    right: 20px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border-style: none;
+    position: absolute;
+    top: 130px;
+    left: 240px;
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+}
+
+button:hover {
+    width: 110px;
+    height: 40px;
+    transition-duration: 1s;
+}
+
